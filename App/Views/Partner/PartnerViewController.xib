@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PartnerViewController" customModule="Amaki" customModuleProvider="target">
+            <connections>
+                <outlet property="addressTextField" destination="Kex-bM-uDw" id="cdH-Z2-JwL"/>
+                <outlet property="descriptionTextView" destination="XHI-KU-wia" id="1hj-Qv-A3a"/>
+                <outlet property="emailTextField" destination="1t1-d6-gun" id="LqO-08-q3o"/>
+                <outlet property="establishmentNameTextField" destination="edU-cj-vJj" id="sOE-2c-M89"/>
+                <outlet property="heightDescriptionTextViewConstraint" destination="BxU-gb-Ra7" id="5RP-Dw-83A"/>
+                <outlet property="nameTextField" destination="TTY-HR-fTv" id="ZVS-7w-Q3Q"/>
+                <outlet property="phoneTextField" destination="RBd-ID-Ayq" id="kQc-Th-d5F"/>
+                <outlet property="socialNetworkTextField" destination="BP8-fG-29g" id="vTU-Tf-DZ7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tvR-YW-veZ">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aRA-7y-qi9">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TTY-HR-fTv" customClass="CataoTextFieldClass" customModule="Amaki" customModuleProvider="target">
+                                    <rect key="frame" x="8" y="16" width="398" height="21"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Telefone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RBd-ID-Ayq" customClass="CataoTextFieldClass" customModule="Amaki" customModuleProvider="target">
+                                    <rect key="frame" x="8" y="45" width="398" height="21"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Estabelecimento" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="edU-cj-vJj" customClass="CataoTextFieldClass" customModule="Amaki" customModuleProvider="target">
+                                    <rect key="frame" x="8" y="74" width="398" height="21"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Endereço" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kex-bM-uDw" customClass="CataoTextFieldClass" customModule="Amaki" customModuleProvider="target">
+                                    <rect key="frame" x="8" y="103" width="398" height="21"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Facebook/Instragram" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BP8-fG-29g" customClass="CataoTextFieldClass" customModule="Amaki" customModuleProvider="target">
+                                    <rect key="frame" x="8" y="132" width="398" height="21"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1t1-d6-gun" customClass="CataoTextFieldClass" customModule="Amaki" customModuleProvider="target">
+                                    <rect key="frame" x="8" y="161" width="398" height="21"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XHI-KU-wia">
+                                    <rect key="frame" x="16" y="213" width="382" height="30"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="BxU-gb-Ra7"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O que oferece?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gya-Jf-14e">
+                                    <rect key="frame" x="8" y="190" width="87" height="15"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OcP-Sy-Twx">
+                                    <rect key="frame" x="16" y="243" width="382" height="1"/>
+                                    <color key="backgroundColor" red="0.94901960780000005" green="0.69411764710000001" blue="0.062745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="YBP-yS-6Fb"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="Kex-bM-uDw" secondAttribute="trailing" constant="8" id="2PX-ls-gBN"/>
+                                <constraint firstItem="Gya-Jf-14e" firstAttribute="top" secondItem="1t1-d6-gun" secondAttribute="bottom" constant="8" id="3I9-dR-McC"/>
+                                <constraint firstItem="1t1-d6-gun" firstAttribute="top" secondItem="BP8-fG-29g" secondAttribute="bottom" constant="8" id="4RO-uH-cjs"/>
+                                <constraint firstItem="edU-cj-vJj" firstAttribute="top" secondItem="RBd-ID-Ayq" secondAttribute="bottom" constant="8" id="55j-f7-53m"/>
+                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OcP-Sy-Twx" secondAttribute="bottom" constant="80" id="5OE-K6-KV2"/>
+                                <constraint firstItem="TTY-HR-fTv" firstAttribute="top" secondItem="aRA-7y-qi9" secondAttribute="top" constant="16" id="5OK-1D-mIl"/>
+                                <constraint firstItem="BP8-fG-29g" firstAttribute="top" secondItem="Kex-bM-uDw" secondAttribute="bottom" constant="8" id="6Eo-MX-wIh"/>
+                                <constraint firstItem="OcP-Sy-Twx" firstAttribute="leading" secondItem="aRA-7y-qi9" secondAttribute="leading" constant="16" id="7kU-gB-dcp"/>
+                                <constraint firstItem="Kex-bM-uDw" firstAttribute="top" secondItem="edU-cj-vJj" secondAttribute="bottom" constant="8" id="8Q0-Zl-ejb"/>
+                                <constraint firstAttribute="trailing" secondItem="BP8-fG-29g" secondAttribute="trailing" constant="8" id="8kO-iz-rN2"/>
+                                <constraint firstItem="Gya-Jf-14e" firstAttribute="leading" secondItem="aRA-7y-qi9" secondAttribute="leading" constant="8" id="BmD-Wb-MhO"/>
+                                <constraint firstItem="TTY-HR-fTv" firstAttribute="leading" secondItem="aRA-7y-qi9" secondAttribute="leading" constant="8" id="FbI-6Q-jsA"/>
+                                <constraint firstAttribute="trailing" secondItem="1t1-d6-gun" secondAttribute="trailing" constant="8" id="Kpk-8Q-w3u"/>
+                                <constraint firstItem="Kex-bM-uDw" firstAttribute="leading" secondItem="aRA-7y-qi9" secondAttribute="leading" constant="8" id="Mxb-fN-uwH"/>
+                                <constraint firstItem="XHI-KU-wia" firstAttribute="top" secondItem="Gya-Jf-14e" secondAttribute="bottom" constant="8" id="NJN-zJ-IwY"/>
+                                <constraint firstAttribute="trailing" secondItem="XHI-KU-wia" secondAttribute="trailing" constant="16" id="O6D-KB-Crg"/>
+                                <constraint firstItem="OcP-Sy-Twx" firstAttribute="top" secondItem="XHI-KU-wia" secondAttribute="bottom" id="RhO-A0-G21"/>
+                                <constraint firstItem="RBd-ID-Ayq" firstAttribute="top" secondItem="TTY-HR-fTv" secondAttribute="bottom" constant="8" id="SNY-kQ-gEj"/>
+                                <constraint firstAttribute="trailing" secondItem="OcP-Sy-Twx" secondAttribute="trailing" constant="16" id="Srd-wd-JoB"/>
+                                <constraint firstItem="XHI-KU-wia" firstAttribute="leading" secondItem="aRA-7y-qi9" secondAttribute="leading" constant="16" id="St3-pJ-du2"/>
+                                <constraint firstItem="edU-cj-vJj" firstAttribute="leading" secondItem="aRA-7y-qi9" secondAttribute="leading" constant="8" id="XkR-1F-zEe"/>
+                                <constraint firstAttribute="trailing" secondItem="edU-cj-vJj" secondAttribute="trailing" constant="8" id="ZTo-C3-DYP"/>
+                                <constraint firstItem="BP8-fG-29g" firstAttribute="leading" secondItem="aRA-7y-qi9" secondAttribute="leading" constant="8" id="e9Q-fF-WKX"/>
+                                <constraint firstItem="RBd-ID-Ayq" firstAttribute="leading" secondItem="aRA-7y-qi9" secondAttribute="leading" constant="8" id="gNr-Ak-nI7"/>
+                                <constraint firstAttribute="trailing" secondItem="TTY-HR-fTv" secondAttribute="trailing" constant="8" id="r35-ZG-i3Z"/>
+                                <constraint firstItem="1t1-d6-gun" firstAttribute="leading" secondItem="aRA-7y-qi9" secondAttribute="leading" constant="8" id="xTE-pR-Alb"/>
+                                <constraint firstAttribute="trailing" secondItem="RBd-ID-Ayq" secondAttribute="trailing" constant="8" id="yzn-eb-2lr"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="aRA-7y-qi9" firstAttribute="leading" secondItem="tvR-YW-veZ" secondAttribute="leading" id="33N-vP-Vfc"/>
+                        <constraint firstAttribute="bottom" secondItem="aRA-7y-qi9" secondAttribute="bottom" id="IV5-gp-W5r"/>
+                        <constraint firstItem="aRA-7y-qi9" firstAttribute="height" secondItem="tvR-YW-veZ" secondAttribute="height" priority="250" id="ddd-hG-Cx6"/>
+                        <constraint firstAttribute="trailing" secondItem="aRA-7y-qi9" secondAttribute="trailing" id="f5S-Qh-G4H"/>
+                        <constraint firstItem="aRA-7y-qi9" firstAttribute="width" secondItem="tvR-YW-veZ" secondAttribute="width" id="iOp-MB-jUv"/>
+                        <constraint firstItem="aRA-7y-qi9" firstAttribute="top" secondItem="tvR-YW-veZ" secondAttribute="top" id="kU8-kS-Fnw"/>
+                    </constraints>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1P-n9-XY7" customClass="CataoUIButton" customModule="Amaki" customModuleProvider="target">
+                    <rect key="frame" x="16" y="796" width="382" height="50"/>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.69411764710000001" blue="0.062745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="e7k-UT-aiR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="ENVIAR">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="didTapSendButton:" destination="-1" eventType="touchUpInside" id="t1f-xK-qHg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tvR-YW-veZ" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="18M-hU-P5U"/>
+                <constraint firstItem="tvR-YW-veZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="1Rg-U4-5xh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="f1P-n9-XY7" secondAttribute="trailing" constant="16" id="8Ye-Nx-BoG"/>
+                <constraint firstItem="tvR-YW-veZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="DRB-zC-aiC"/>
+                <constraint firstItem="f1P-n9-XY7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="X5b-Rq-gcw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="f1P-n9-XY7" secondAttribute="bottom" constant="16" id="etB-aC-u2F"/>
+                <constraint firstItem="tvR-YW-veZ" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="xgu-cg-AOE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-104.34782608695653" y="23.4375"/>
+        </view>
+    </objects>
+</document>
